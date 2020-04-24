@@ -19,13 +19,17 @@ const Notes = () => {
     setLoading(false);
   };
 
-  const handleClick  async (id) => {
-    setLoading(true);
-    await fetch(`/notes/${id}`);
-    const data = await res.json();
-    console.log(data);
-    setNotes(data);
-    setLoading(false);
+  const handleClick = async (id) => {
+    try {
+      setLoading(true);
+      await fetch(`/notes/${id}`, {
+        method: "DELETE",
+      });
+      getNotes();
+      setLoading(false);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   if (loading) {
