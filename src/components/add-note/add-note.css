@@ -1,0 +1,17 @@
+.add-note-box {
+  text-align: center;
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.add-note-box a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  background-color: black;
+  padding: 5px;
+  margin-top: 10px;
+}

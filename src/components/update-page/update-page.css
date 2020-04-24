@@ -1,0 +1,16 @@
+.update-page-wrapper {
+  border: 1px solid black;
+  padding: 5px;
+  width: 300px;
+}
+
+.update-btn {
+  text-decoration: none;
+  display: block;
+  color: black;
+  border: 1px solid black;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+}

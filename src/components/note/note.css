@@ -4,12 +4,13 @@
   position: relative;
   text-align: center;
   padding: 1rem;
+  margin-left: 10px;
 }
 
 .delete-btn {
   position: absolute;
   top: 0;
-  left: 200px;
+  left: 180px;
 }
 
 .delete-btn a {
